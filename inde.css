@@ -16,20 +16,27 @@ h1{
 @keyframes salom {
     0%{
         color: red;
+        background-color: blue;
+        transform: rotate(350deg);
     }
     15%{
         color: blue;
+        background-color: red;
     }
     20%{
         color: aqua;
+        background-color: black;
     }
     35%{
-        color: white;
+        color: black;
+        background-color: aqua;
     }
     40%{
         color: pink;
+        background-color: red;
     }
     50%{
         color: red;
+        background-color: pink;
     }
 }
