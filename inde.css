@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    min-height: 100vh;
+}
+h1{
+    animation: salom 5s linear infinite;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+@keyframes salom {
+    0%{
+        color: red;
+    }
+    15%{
+        color: blue;
+    }
+    20%{
+        color: aqua;
+    }
+    35%{
+        color: white;
+    }
+    40%{
+        color: pink;
+    }
+    50%{
+        color: red;
+    }
+}
